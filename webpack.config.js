@@ -11,7 +11,7 @@ const htmlPlugin = new HtmlWebpackPlugin({
 });
 
 export default {
-    entry: "./src/js/index.jsx",
+    entry: "./src/js/Index.jsx",
   output: {
     path: path.join(__dirname, 'dist'),
     filename: "[name].js"
